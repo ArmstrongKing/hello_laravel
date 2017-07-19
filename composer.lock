@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec12971df744621cd98e7a025ddf1b8e",
-    "content-hash": "88fc1c2ef96b221d1a9d4ed7933488d6",
+    "hash": "e2fd5f98b728c01357770fc023c183d5",
+    "content-hash": "ff436815649c3a9904db449c8ee2f090",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -128,6 +128,48 @@
                 }
             ],
             "time": "2016-06-13 19:28:20"
+        },
+        {
+            "name": "caouecs/laravel-lang",
+            "version": "3.0.35",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caouecs/Laravel-lang.git",
+                "reference": "7c4c87b366ee3a17860e9371f339e7158d560caf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/caouecs/Laravel-lang/7c4c87b366ee3a17860e9371f339e7158d560caf.zip",
+                "reference": "7c4c87b366ee3a17860e9371f339e7158d560caf",
+                "shasum": ""
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.10"
+            },
+            "suggest": {
+                "ablunier/laravel-lang-installer": "Command for easily add languages to a Laravel project",
+                "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                "overtrue/laravel-lang": "Command to add languages in your project"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caouecs",
+                    "email": "caouecs@caouecs.net"
+                }
+            ],
+            "description": "Languages for Laravel",
+            "keywords": [
+                "lang",
+                "languages",
+                "laravel",
+                "lpm"
+            ],
+            "time": "2017-06-09 08:16:13"
         },
         {
             "name": "classpreloader/classpreloader",
