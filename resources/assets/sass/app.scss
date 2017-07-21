@@ -66,6 +66,13 @@ p {
   }
 }
 
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
 /* footer */
 
 footer {
@@ -163,4 +170,10 @@ input {
 
 .panel {
   margin-top: 50px;
+}
+
+.checkbox {
+  input[type='checkbox'] {
+    width: auto;
+  }
 }
